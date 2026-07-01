@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Artisan",
+    "slug": "artisan-saas",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "scheme": "artisan",
+    "splash": {
+      "backgroundColor": "#A0522D"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.artisan.saas"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#A0522D"
+      },
+      "package": "com.artisan.saas"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": ["expo-router"]
+  }
+}

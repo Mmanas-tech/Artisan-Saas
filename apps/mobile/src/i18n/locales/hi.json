@@ -1,0 +1,103 @@
+{
+  "app": { "name": "कारीगर" },
+  "onboarding": {
+    "welcome": "कारीगर में आपका स्वागत है",
+    "subtitle": "इन्वेंटरी आसान। लेजर ईमानदार।",
+    "craftTitle": "आप क्या बनाते हैं?",
+    "voiceTitle": "वॉयस कमांड आज़माएं",
+    "voiceDemo": "कहें: \"10 किलो मिट्टी जोड़ें\"",
+    "offlineTitle": "ऑफ़लाइन काम करता है",
+    "offlineDesc": "बदलाव स्थानीय रूप से सहेजे जाते हैं। ऑनलाइन होने पर सिंक होता है।",
+    "getStarted": "शुरू करें",
+    "next": "अगला",
+    "skip": "छोड़ें",
+    "done": "समझ गया"
+  },
+  "auth": {
+    "loginTitle": "अपना फ़ोन नंबर दर्ज करें",
+    "phonePlaceholder": "+91 98765 43210",
+    "sendOtp": "OTP भेजें",
+    "verifyTitle": "कोड दर्ज करें",
+    "verify": "सत्यापित करें",
+    "resend": "OTP पुनः भेजें"
+  },
+  "tabs": {
+    "inventory": "इन्वेंटरी",
+    "marketplace": "बाज़ार",
+    "coop": "सहकारी",
+    "analytics": "विश्लेषण",
+    "settings": "सेटिंग्स"
+  },
+  "inventory": {
+    "title": "मेरी इन्वेंटरी",
+    "totalValue": "कुल मूल्य",
+    "lowStock": "{{count}} वस्तुएं पुनर्क्रम स्तर से नीचे",
+    "addStock": "स्टॉक जोड़ें",
+    "viewReport": "रिपोर्ट देखें",
+    "empty": "अभी तक कोई इन्वेंटरी नहीं",
+    "emptyCta": "अपनी पहली वस्तु जोड़ें",
+    "item": {
+      "qty": "मात्रा",
+      "reorder": "पुनर्क्रम",
+      "price": "कीमत",
+      "lastUpdated": "अंतिम अपडेट",
+      "blockchain": "ब्लॉकचेन",
+      "edit": "संपादित करें",
+      "delete": "हटाएं",
+      "sell": "बेचें"
+    }
+  },
+  "voice": {
+    "tapToSpeak": "स्टॉक जोड़ने के लिए टैप करें",
+    "listening": "सुन रहा है...",
+    "processing": "प्रक्रिया हो रही है...",
+    "success": "{{quantity}} {{unit}} {{item}} जोड़ा गया",
+    "error": "समझ नहीं आया। फिर से कोशिश करें।",
+    "confirm": "पुष्टि करें",
+    "retry": "पुनः प्रयास",
+    "confidence": "विश्वास स्तर"
+  },
+  "sync": {
+    "allSynced": "सब सिंक हो गया",
+    "pending": "{{count}} वस्तुएं लंबित",
+    "offline": "आप ऑफ़लाइन हैं",
+    "offlineDesc": "ऑनलाइन होने पर बदलाव सिंक होंगे",
+    "syncing": "सिंक हो रहा है...",
+    "lastSync": "अंतिम सिंक"
+  },
+  "marketplace": {
+    "title": "बाज़ार",
+    "myListings": "मेरी लिस्टिंग",
+    "browse": "ब्राउज़",
+    "filters": "फ़िल्टर",
+    "interested": "रुचि",
+    "message": "संदेश",
+    "addToCart": "कार्ट में जोड़ें",
+    "postedAgo": "{{time}} पहले पोस्ट किया",
+    "verifiedSeller": "सत्यापित विक्रेता"
+  },
+  "settings": {
+    "title": "सेटिंग्स",
+    "language": "भाषा",
+    "theme": "थीम",
+    "syncFrequency": "सिंक आवृत्ति",
+    "notifications": "सूचनाएं",
+    "darkMode": "डार्क मोड",
+    "profile": "प्रोफ़ाइल",
+    "security": "सुरक्षा",
+    "ledger": "लेजर",
+    "exportData": "डेटा निर्यात",
+    "support": "सहायता",
+    "about": "के बारे में"
+  },
+  "common": {
+    "save": "सहेजें",
+    "cancel": "रद्द करें",
+    "delete": "हटाएं",
+    "confirm": "पुष्टि करें",
+    "loading": "लोड हो रहा है...",
+    "error": "कुछ गड़बड़ हुई",
+    "retry": "पुनः प्रयास",
+    "back": "वापस"
+  }
+}

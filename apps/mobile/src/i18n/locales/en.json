@@ -1,0 +1,103 @@
+{
+  "app": { "name": "Artisan" },
+  "onboarding": {
+    "welcome": "Welcome to Artisan",
+    "subtitle": "Inventory made simple. Ledger made honest.",
+    "craftTitle": "What do you make?",
+    "voiceTitle": "Try voice commands",
+    "voiceDemo": "Say: \"Add 10 kg clay\"",
+    "offlineTitle": "Works offline",
+    "offlineDesc": "Changes save locally. Syncs when online.",
+    "getStarted": "Let's Go",
+    "next": "Next",
+    "skip": "Skip",
+    "done": "Got it"
+  },
+  "auth": {
+    "loginTitle": "Enter your phone number",
+    "phonePlaceholder": "+91 98765 43210",
+    "sendOtp": "Send OTP",
+    "verifyTitle": "Enter the code",
+    "verify": "Verify",
+    "resend": "Resend OTP"
+  },
+  "tabs": {
+    "inventory": "Inventory",
+    "marketplace": "Marketplace",
+    "coop": "Co-op",
+    "analytics": "Analytics",
+    "settings": "Settings"
+  },
+  "inventory": {
+    "title": "My Inventory",
+    "totalValue": "Total Value",
+    "lowStock": "{{count}} items below reorder level",
+    "addStock": "Add Stock",
+    "viewReport": "View Report",
+    "empty": "No inventory yet",
+    "emptyCta": "Add your first item",
+    "item": {
+      "qty": "Qty",
+      "reorder": "Reorder",
+      "price": "Price",
+      "lastUpdated": "Last updated",
+      "blockchain": "Blockchain",
+      "edit": "Edit",
+      "delete": "Delete",
+      "sell": "Sell"
+    }
+  },
+  "voice": {
+    "tapToSpeak": "Tap to add stock",
+    "listening": "Listening...",
+    "processing": "Processing...",
+    "success": "Added {{quantity}} {{unit}} {{item}}",
+    "error": "Didn't catch that. Try again.",
+    "confirm": "Confirm",
+    "retry": "Retry",
+    "confidence": "Confidence"
+  },
+  "sync": {
+    "allSynced": "All synced",
+    "pending": "{{count}} items pending",
+    "offline": "You're offline",
+    "offlineDesc": "Changes will sync when online",
+    "syncing": "Syncing...",
+    "lastSync": "Last sync"
+  },
+  "marketplace": {
+    "title": "Marketplace",
+    "myListings": "My Listings",
+    "browse": "Browse",
+    "filters": "Filters",
+    "interested": "Interested",
+    "message": "Message",
+    "addToCart": "Add to Cart",
+    "postedAgo": "Posted {{time}} ago",
+    "verifiedSeller": "Verified seller"
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "theme": "Theme",
+    "syncFrequency": "Sync Frequency",
+    "notifications": "Notifications",
+    "darkMode": "Dark Mode",
+    "profile": "Profile",
+    "security": "Security",
+    "ledger": "Ledger",
+    "exportData": "Export Data",
+    "support": "Support",
+    "about": "About"
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "confirm": "Confirm",
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Retry",
+    "back": "Back"
+  }
+}

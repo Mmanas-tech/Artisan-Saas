@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.env
+.env.local
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+.turbo/
+.expo/
+web-build/
+coverage/
+*.log
+.DS_Store
+Thumbs.db

@@ -1,0 +1,1 @@
+export { parseVoiceCommand } from './IntentParser';
