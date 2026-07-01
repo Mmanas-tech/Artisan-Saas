@@ -55,7 +55,7 @@ export default function TabLayout() {
           title: 'Inventory',
           tabBarIcon: ({ color, size }) => (
             <View>
-              <IconPackage size={size} color={color} />
+              <IconPackage size={size} color={color as string} />
               <SyncBadge />
             </View>
           ),
@@ -65,21 +65,21 @@ export default function TabLayout() {
         name="marketplace"
         options={{
           title: 'Marketplace',
-          tabBarIcon: ({ color, size }) => <IconBuildingStore size={size} color={color} />,
+          tabBarIcon: ({ color, size }) => <IconBuildingStore size={size} color={color as string} />,
         }}
       />
       <Tabs.Screen
         name="analytics"
         options={{
           title: 'Analytics',
-          tabBarIcon: ({ color, size }) => <IconChartBar size={size} color={color} />,
+          tabBarIcon: ({ color, size }) => <IconChartBar size={size} color={color as string} />,
         }}
       />
       <Tabs.Screen
         name="settings"
         options={{
           title: 'Settings',
-          tabBarIcon: ({ color, size }) => <IconSettings size={size} color={color} />,
+          tabBarIcon: ({ color, size }) => <IconSettings size={size} color={color as string} />,
         }}
       />
     </Tabs>
